@@ -1,0 +1,40 @@
+<footer class="bg-black text-white">
+  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-8">
+    <div>
+      <p class="font-bold text-2xl mb-4">Ayuda</p>
+      <ul class="space-y-2 text-gray-400">
+        <li><a class="hover:text-accent" href="#">FAQs</a></li>
+        <li><a class="hover:text-accent" href="#">Envíos</a></li>
+        <li><a class="hover:text-accent" href="#">Devoluciones</a></li>
+        <li><a class="hover:text-accent" href="#">Contacto</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-bold text-2xl mb-4">Compañía</p>
+      <ul class="space-y-2 text-gray-400">
+        <li><a class="hover:text-accent" href="#">Sobre nosotros</a></li>
+        <li><a class="hover:text-accent" href="#">Carreras</a></li>
+        <li><a class="hover:text-accent" href="#">Prensa</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-bold text-2xl mb-4">Legal</p>
+      <ul class="space-y-2 text-gray-400">
+        <li><a class="hover:text-accent" href="#">Términos y Condiciones</a></li>
+        <li><a class="hover:text-accent" href="#">Política de Privacidad</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="font-bold text-2xl mb-4">Síguenos</p>
+      <div class="flex space-x-2">
+
+        <p-button icon="pi pi-facebook" [text]="true" class="text-gray-400 hover:text-accent"  (onClick)="navigate('facebook')"/>
+        <!-- <p-button icon="pi pi-twitter" [text]="true" class="text-gray-400 hover:text-accent" (onClick)="navigate('instagram')"  /> -->
+        <p-button icon="pi pi-instagram" [text]="true" class="text-gray-400 hover:text-accent" (onClick)="navigate('instagram')" />
+      </div>
+    </div>
+  </div>
+  <div class="border-t border-gray-800 mt-8 py-6 px-4 sm:px-6 2xl:px-8">
+    <p class="text-center text-gray-500">© 2025 <span text-2xl class="text-green-200">Lucky Hats & Clothes🫡👽</span>. Todos los derechos reservados.</p>
+  </div>
+</footer>
