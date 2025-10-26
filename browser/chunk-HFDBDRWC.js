@@ -1,0 +1,1 @@
+import"./chunk-4CLCTAJ7.js";var t=[{path:"home",loadComponent:()=>import("./chunk-WV35NKMA.js").then(o=>o.HomePage)},{path:"",redirectTo:"home",pathMatch:"full"},{path:"**",redirectTo:"home"}];export{t as routes};
